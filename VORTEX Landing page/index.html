@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <div class="app">
+      <!-- the nav layout starts here -->
+      <nav class="navbar">
+        <a href="#main" class="logo">
+          <h3>VORTEX</h3>
+          <img src="./assets/logo.png" alt="logo" class="logo-img">
+        </a>
+        <ul class="links"></ul>
+        <div class="burger" onclick="expand()">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
+      <!-- the main section layout starts here  -->
+      <section id="main">
+        <!--slide show-->
+
+
+  <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="./assets/slideshow 1.jpg" style="width:100%">
+    <div class="text">Console Games</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="./assets/slideshow 2.jpg" style="width:100%">
+    <div class="text">Mobile Games </div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="./assets/slodeshow 3.png" style="width:100%">
+    <div class="text">PC Games</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+        <!--end of slide show-->
+
+<!--about section-->
+      </section>
+      <section id="VideoGames">
+        <h2 class="games-heading">
+          Video game
+        </h2>
+        <p class="games-text">
+          A video game or computer game is an electronic game that involves interaction with a user interface or input device – such as a joystick, controller, keyboard, or motion sensing device – to generate visual feedback. This feedback is shown on a video display device, such as a TV set, monitor, touchscreen, or virtual reality headset. Video games are often augmented with audio feedback delivered through speakers or headphones, and sometimes with other types of feedback, including haptic technology.
+        </p>
+        <img src="./assets/about logo.png" class="games-img" />
+      </section>
+
+      <section id="eSoprt">
+      
+        <h2 class="eSoprt-header">eSoprt</h2>
+        <p class="eSport-text">
+          Esports (also known as electronic sports, e-sports, or eSports)
+           is a form of competition using video games.[1] Esports often takes the form of organized, 
+           multiplayer video game competitions, particularly between professional players,
+            individually or as teams. 
+            Although organized competitions have long been a part of video game culture, 
+            these were largely between amateurs until the late 2000s, when participation by professional gamers and spectatorship in these events through live streaming saw a large surge in popularity.
+             By the 2010s, 
+            esports was a significant factor in the video game industry,
+           with many game developers actively designing and providing funding for tournaments and other events.
+        </p>
+      </section>
+      <section id="about">
+        <h2>Who are us ?</h2>
+        <p class="about-text">
+          VORTEX gaming section brings the latest video game news, 
+          reviews of the most exciting releases, and interviews with the industry’s biggest names.
+          We cover everything from PlayStation and Xbox blockbusters, to quirky Nintendo games, 
+          to the cool indie gems on PC and Android that you might otherwise miss.
+        </p>
+      </section>
+      <footer id="footer">
+        <p>We hope you enjoy with bideo games</p>
+      </footer>
+      <button onclick="scrollUp()" class="scroll-up">up</button>
+    </div>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
