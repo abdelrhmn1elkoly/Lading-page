@@ -12,7 +12,6 @@
     a.classList.add("link");
     a.href = "";
     li.appendChild(a);
-    console.log(li);
     navbar.appendChild(li);
   });
 })();
